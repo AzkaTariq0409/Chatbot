@@ -1,0 +1,91 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet_m:
+    use_entities: true
+- greet:
+    use_entities: true
+- greet_info:
+    use_entities: true
+- greet_source&destination_seats:
+    use_entities: true
+- bus_info:
+    use_entities: true
+- info:
+    use_entities: true
+- info_and_destination:
+    use_entities: true
+- info_name_source_and_destination:
+    use_entities: true
+- seat_source_and_destination:
+    use_entities: true
+- time_seats:
+    use_entities: true
+- about:
+    use_entities: true
+- name:
+    use_entities: true
+- destination_and_source:
+    use_entities: true
+- source_and_destination:
+    use_entities: true
+- destination:
+    use_entities: true
+- source:
+    use_entities: true
+- no_of_seats:
+    use_entities: true
+- date_and_time:
+    use_entities: true
+- date:
+    use_entities: true
+- time:
+    use_entities: true
+- info_no_of_seats:
+    use_entities: true
+- info_source_and_destination:
+    use_entities: true
+- seats:
+    use_entities: true
+- end:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_greet_m:
+  - text: گڈ مورننگ
+  - text: گڈ ایوننگ
+  utter_info:
+  - text: جی ہم آپ کی کیا مدد ک سکتے
+  utter_seat_info:
+  - text: ہمارے پاس ہر سیٹ میسر ہےـ آپ کون سی بک کروانا چاہتے ہیں
+  utter_greet:
+  - text: وعلیکم اسلام
+  utter_name:
+  - text: آپ کا نام ؟
+  utter_destination:
+  - text: آپ نے کہاں جانا ہے؟
+  utter_source:
+  - text: آپ نے کہاں سے جانا ہے؟
+  utter_seats:
+  - text: آپ نے کتی سیثیں بک کروانی ہے؟
+  utter_time:
+  - text: کس وقت کوجانا ہے؟
+  utter_date:
+  - text: کس تاریخ کوجانا ہے؟
+  utter_status:
+  - text: آپ کی سیٹ بک کر دی گي ہے
+  utter_about:
+  - text: میء ٹھیک ہوں- آپ کی کیا مدد کر سکتا
+  utter_exact_time:
+  - text: عین کس وقت جانا چاہیں گی
+  utter_end:
+  - text: اللہ حافظ
+actions:
+- uter_seats
+forms: {}
+e2e_actions: []

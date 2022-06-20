@@ -1,0 +1,254 @@
+version: "2.0"
+
+stories:
+
+- story: story 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: info
+  - action: utter_name
+  - intent: name
+  - action: utter_destination
+  - intent: destination_and_source
+  - action: utter_seats
+  - intent: seats
+  - action: utter_time
+  - intent: time
+  - action: utter_date
+  - intent: date
+  - action: utter_status
+
+- story: story 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: info_no_of_seats
+  - intent: name
+  - action: utter_destination
+  - intent: destination
+  - action: utter_source
+  - intent: source
+  - action: utter_time
+  - intent: time
+  - action: utter_date
+  - intent: date
+  - action: utter_status
+
+- story: story 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: info
+  - action: utter_name
+  - intent: name
+  - action: utter_destination
+  - intent: source_and_destination
+  - action: utter_seats
+  - intent: no_of_seats
+  - action: utter_time
+  - intent: time
+  - action: utter_date
+  - intent: date
+  - action: utter_status
+
+- story: story 4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: info_and_destination
+  - action: utter_source
+  - intent: source
+  - action: utter_seats
+  - intent: no_of_seats
+  - action: utter_date
+  - intent: date_and_time
+  - action: utter_status
+
+- story: story 5
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about
+  - action: utter_about
+  - intent: info_source_and_destination
+  - action: utter_name
+  - intent: name
+  - action: utter_seats
+  - intent: no_of_seats
+  - action: utter_date
+  - intent: date
+  - action: utter_time
+  - intent: time
+  - action: utter_status
+
+- story: story 6
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: info_name_source_and_destination
+  - action: utter_date
+  - intent: date
+  - action: utter_seats
+  - intent: seats
+  - action: utter_time
+  - intent: time
+  - action: utter_status
+
+- story: story 7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: info
+  - action: utter_name
+  - intent: name
+  - action: utter_destination
+  - intent: destination
+  - action: utter_source
+  - intent: source
+  - action: utter_seats
+  - intent: no_of_seats
+  - action: utter_time
+  - intent: date_and_time
+  - action: utter_status
+
+- story: story 8
+  steps: 
+  - intent: greet
+  - action: utter_greet
+  - intent: source_and_destination
+  - action: utter_time
+  - intent: time
+  - action: utter_name
+  - intent: name
+  - action: utter_date
+  - intent: date
+  - action: utter_seats
+  - intent: no_of_seats
+  - action: utter_status
+
+- story: story 9
+  steps: 
+  - intent: greet
+  - action: utter_greet
+  - intent: destination
+  - action: utter_source
+  - intent: source
+  - action: utter_time
+  - intent: time
+  - action: utter_date
+  - intent: date
+  - action: utter_name
+  - intent: name
+  - action: utter_seats
+  - intent: no_of_seats
+  - action: utter_status
+  - intent: end
+  - action: utter_end
+  
+
+- story: story 10
+  steps: 
+  - intent: greet_m
+  - action: utter_greet_m
+  - intent: info
+  - action: utter_name
+  - intent: name
+  - action: utter_destination 
+  - intent: destination
+  - action: utter_source
+  - intent: source
+  - action: utter_date
+  - intent: date
+  - action: utter_seats
+  - intent: no_of_seats
+  - action: utter_time
+  - intent: time
+  - action: utter_status
+  - intent: end
+  - action: utter_end
+
+- story: story 11
+  steps: 
+  - intent: greet
+  - action: utter_greet
+  - intent: info_and_destination
+  - action: utter_source
+  - intent: source
+  - action: utter_name
+  - intent: name
+  - action: utter_date
+  - intent: date
+  - action: utter_seats
+  - intent: no_of_seats
+  - action: utter_time
+  - intent: time
+  - action: utter_status
+  - intent: end
+  - action: utter_end
+
+- story: story 12
+  steps: 
+  - intent: greet
+  - action: utter_greet
+  - intent: info
+  - action: utter_info
+  - intent: seat_source_and_destination
+  - action: utter_time
+  - intent: info
+  - action: utter_seat_info
+  - intent: info
+  - action: utter_seat_info
+  - intent: time_seats
+  - action: utter_name
+  - intent: name
+  - action: utter_status
+  - intent: end
+  - action: utter_end
+
+- story: story 13
+  steps: 
+  - intent: greet_source&destination_seats
+  - action: utter_name
+  - intent: name
+  - action: utter_time
+  - intent: time
+  - action: utter_date
+  - intent: date
+  - action: utter_status
+  - intent: end
+  - action: utter_end
+
+- story: story 14
+  steps: 
+  - intent: greet_info
+  - action: utter_seats
+  - intent: no_of_seats
+  - action: utter_source
+  - intent: source
+  - action: utter_destination
+  - intent: destination
+  - action: utter_date
+  - intent: date
+  - action: utter_time
+  - intent: time
+  - action: utter_status
+  - intent: end
+  - action: utter_end
+
+- story: story 15
+  steps: 
+  - intent: greet
+  - action: utter_greet
+  - intent: destination
+  - action: utter_source
+  - intent: source
+  - action: utter_seats
+  - intent: no_of_seats
+  - action: utter_time
+  - intent: time
+  - action: utter_name
+  - intent: name
+  - action: utter_status
+  - intent: end
+  - action: utter_end
